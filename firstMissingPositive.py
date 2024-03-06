@@ -13,7 +13,6 @@ Explanation:we go over the list and we check the range [1,array length]
     after going over all the numbers we have that every exisiting number in the range of length is in its index
     if we have a value higher than the length it means we have a missing number in [1,array length]
 """
-class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         n=len(nums)
         counter=0
